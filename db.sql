@@ -4525,11 +4525,6 @@ COPY public.socialaccount_socialaccount (id, provider, uid, last_login, date_joi
 -- Data for Name: socialaccount_socialapp; Type: TABLE DATA; Schema: public; Owner: sellbuy
 --
 
-COPY public.socialaccount_socialapp (id, provider, name, client_id, secret, key) FROM stdin;
-1	google	SellBuy	1054367004877-u3btp113vht9o84rirfid6934tuu3lvo.apps.googleusercontent.com	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	
-2	facebook	SellBuy	828638414976952	d82a718478eb0d936ddb320107359c33	
-\.
-
 
 --
 -- Data for Name: socialaccount_socialapp_sites; Type: TABLE DATA; Schema: public; Owner: sellbuy
